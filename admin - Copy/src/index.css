@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #F6F6F6;
+  height: 100vh;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  height: 200px;
+  width: 400px;
+  background-image: url("./");
+    background-color: gray;
+    background-color: transparent;
+}
+.email-css{
+  padding: 15px;
+  border-radius: 10px;
+}
+.password-css{
+  padding: 15px;
+  border-radius: 10px;
+}
+.btn-css{
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn-css:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

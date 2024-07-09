@@ -16,7 +16,13 @@ mongoose.connect("mongodb+srv://gulshank:gulshank123@cluster0.omcncqf.mongodb.ne
 // paste your mongoDB Connection string above with password
 // password should not contain '@' special character
 
-
+app.use(cors(
+  {
+  origin: ["https://deploy-mern-1whq.vercel.app"],
+  methods: ["POST", "GET"],
+  credentials: true
+  }
+  ));
 
 
 
