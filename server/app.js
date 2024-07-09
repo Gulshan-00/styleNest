@@ -8,6 +8,14 @@ const stripe=require("stripe")("sk_test_51PVWlbLPaJtoocZIVlHdC50gIKw9dq3ocTjb5Bs
 app.use(express.json());
 app.use(cors());
 
+app.use(cors(
+    {
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
+    }
+    ));
+
 
 app.get("/", (req, res) => {
     res.send("server");
