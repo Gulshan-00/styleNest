@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  /* background-color:grey; */
+}
+body{
+  /* background-color: rgb(228, 228, 228, 0.2); */
+  background-image: url("./Components/Assets/bg_store1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
+  
+ 
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* contact us page */
+.contact-us{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.for-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  border: 1px solid black;
+  border-radius: 2rem;
+  
+  gap: 20px;
+  height: 3rem;
+  color: white;
+ 
+}
+.for-contact a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  color: white;
+}
+
+
+.linkdin-icon{
+  width: 3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.email-icon{
+  width: 3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.about-section{
+  margin: 4rem 20rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  color: white;
+}
